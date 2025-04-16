@@ -1,9 +1,8 @@
 import React from "react";
 import { Oxygen } from "next/font/google";
-import Link from "next/link";
 import { Stack, Flex, Button } from "@mantine/core";
 import styled from "styled-components";
-import { FaChevronRight, FaGithub, FaStar } from "react-icons/fa6";
+import { FaChevronRight } from "react-icons/fa6";
 
 const oxygen = Oxygen({
   subsets: ["latin-ext"],
@@ -101,7 +100,7 @@ const StyledHeroText = styled.h2`
   }
 `;
 
-export const HeroSection = ({ stars = 0 }) => {
+export const HeroSection = () => {
   return (
     <StyledHeroSection>
       <StyledHeroSectionBody>

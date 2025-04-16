@@ -1,44 +1,5 @@
 import React from "react";
-import { Container, Image, SimpleGrid, Stack, Text, Title } from "@mantine/core";
-import styled from "styled-components";
-
-const StyledImageWrapper = styled.div`
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    padding: 12px;
-    border-radius: 15px;
-    border: 1px solid #e0e0e0;
-    background: #f3f3f3;
-    --line-color-1: #e3e3e3;
-    --line-color-2: #e5e5e5;
-    background-image:
-      linear-gradient(var(--line-color-1) 1.5px, transparent 1.5px),
-      linear-gradient(90deg, var(--line-color-1) 1.5px, transparent 1.5px),
-      linear-gradient(var(--line-color-2) 1px, transparent 1px),
-      linear-gradient(90deg, var(--line-color-2) 1px, transparent 1px);
-    background-position:
-      -1.5px -1.5px,
-      -1.5px -1.5px,
-      -1px -1px,
-      -1px -1px;
-    background-size:
-      100px 100px,
-      100px 100px,
-      20px 20px,
-      20px 20px;
-  }
-
-  img {
-    z-index: 1;
-  }
-`;
+import { Container, SimpleGrid, Stack } from "@mantine/core";
 
 export const Section1 = () => {
   return (

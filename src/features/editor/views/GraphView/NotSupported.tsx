@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Button, Text } from "@mantine/core";
 import styled from "styled-components";
+
 // import { UpgradeContent } from "../../../modals/UpgradeModal";
 
 const StyledNotSupported = styled.div`

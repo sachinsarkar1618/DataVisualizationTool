@@ -74,7 +74,8 @@ const ExternalMode = () => {
             <br />
             <br />
             We kindly encourage you to consider upgrading to the premium version, which not only
-            enhances your experience but also contributes to the ongoing development of DATA VISUALIZER.
+            enhances your experience but also contributes to the ongoing development of DATA
+            VISUALIZER.
           </Text>
         </Group>
         <Group pt="lg" justify="right">

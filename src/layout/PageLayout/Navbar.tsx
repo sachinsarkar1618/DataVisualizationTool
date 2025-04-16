@@ -1,8 +1,6 @@
 import React from "react";
-import Link from "next/link";
-import { Button, Menu, type MenuItemProps, Text, Stack } from "@mantine/core";
+import { Menu, type MenuItemProps } from "@mantine/core";
 import styled from "styled-components";
-import { LuChevronDown } from "react-icons/lu";
 import { JSONCrackLogo } from "../JsonCrackLogo";
 
 const StyledNavbarWrapper = styled.div`
@@ -38,25 +36,6 @@ const StyledNavbar = styled.nav`
 const Left = styled.div`
   display: flex;
   align-items: center;
-`;
-
-const Right = styled.div`
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  white-space: nowrap;
-`;
-
-const Center = styled.div`
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  white-space: nowrap;
-  justify-content: center;
-
-  @media only screen and (max-width: 768px) {
-    display: none;
-  }
 `;
 
 export const Navbar = () => {
