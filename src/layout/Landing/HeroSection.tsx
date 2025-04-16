@@ -76,29 +76,6 @@ const StyledHeroTitle = styled.h1`
   }
 `;
 
-const StyledHeroText = styled.h2`
-  font-size: 14px;
-  color: #4a5568;
-  font-weight: 400;
-  max-width: 75%;
-  margin-top: 1rem;
-  text-align: center;
-
-  strong {
-    font-weight: 400;
-    color: #115fe6;
-  }
-
-  @media only screen and (min-width: 576px) {
-    font-size: 18px;
-    max-width: 80%;
-  }
-
-  @media only screen and (min-width: 1400px) {
-    font-size: 18px;
-    max-width: 60%;
-  }
-`;
 
 export const HeroSection = () => {
   return (

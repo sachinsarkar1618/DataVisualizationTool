@@ -30,11 +30,10 @@ const StyledTitle = styled.span<{ fontSize: string }>`
 
 interface LogoProps extends React.ComponentPropsWithoutRef<"div"> {
   fontSize?: string;
-  hideLogo?: boolean;
   hideText?: boolean;
 }
 
-export const JSONCrackLogo = ({ fontSize = "1.2rem", hideText, hideLogo, ...props }: LogoProps) => {
+export const JSONCrackLogo = ({ fontSize = "1.2rem", hideText, ...props }: LogoProps) => {
   const [isIframe, setIsIframe] = React.useState(false);
 
   useEffect(() => {

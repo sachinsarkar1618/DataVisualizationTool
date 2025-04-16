@@ -8,14 +8,6 @@ const StyledNavbarWrapper = styled.div`
   transition: background 0.2s ease-in-out;
 `;
 
-const StyledMenuItem = styled(Menu.Item)<MenuItemProps & any>`
-  color: black;
-
-  &[data-hovered] {
-    background-color: #f7f7f7;
-  }
-`;
-
 const StyledNavbar = styled.nav`
   display: flex;
   justify-content: space-between;
