@@ -15,7 +15,7 @@ export const HomePage = (props: InferGetStaticPropsType<typeof getStaticProps>) 
   return (
     <Layout>
       <NextSeo {...SEO} canonical="https://jsoncrack.com" />
-      <HeroSection stars={props.stars} />
+      <HeroSection />
       <HeroPreview />
       {/* <Section1 /> */}
       {/* <Section2 /> */}
