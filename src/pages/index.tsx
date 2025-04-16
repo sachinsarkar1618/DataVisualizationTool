@@ -1,5 +1,5 @@
 import React from "react";
-import type { InferGetStaticPropsType, GetStaticProps } from "next";
+import type { GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
 import { SEO } from "../constants/seo";
 // import { FAQ } from "../layout/Landing/FAQ";
