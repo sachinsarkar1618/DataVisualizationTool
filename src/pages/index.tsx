@@ -11,7 +11,7 @@ import { HeroSection } from "../layout/Landing/HeroSection";
 // import { Section3 } from "../layout/Landing/Section3";
 import Layout from "../layout/PageLayout";
 
-export const HomePage = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
+export const HomePage = () => {
   return (
     <Layout>
       <NextSeo {...SEO} canonical="https://jsoncrack.com" />
