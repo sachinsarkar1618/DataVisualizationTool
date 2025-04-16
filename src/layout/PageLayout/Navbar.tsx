@@ -1,5 +1,4 @@
 import React from "react";
-import { Menu, type MenuItemProps } from "@mantine/core";
 import styled from "styled-components";
 import { JSONCrackLogo } from "../JsonCrackLogo";
 

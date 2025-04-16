@@ -76,7 +76,6 @@ const StyledHeroTitle = styled.h1`
   }
 `;
 
-
 export const HeroSection = () => {
   return (
     <StyledHeroSection>
