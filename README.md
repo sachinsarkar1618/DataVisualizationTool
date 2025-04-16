@@ -1,0 +1,1 @@
+It is a data visualization tool.
