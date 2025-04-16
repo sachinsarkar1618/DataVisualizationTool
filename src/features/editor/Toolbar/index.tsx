@@ -48,7 +48,7 @@ export const Toolbar = () => {
       <Group gap="xs" justify="left" w="100%" style={{ flexWrap: "nowrap" }}>
         <StyledToolElement title="DATA VISUALIZER">
           <Flex gap="xs" align="center" justify="center">
-            <JSONCrackLogo fontSize="0.8rem" hideLogo />
+            <JSONCrackLogo fontSize="0.8rem" />
           </Flex>
         </StyledToolElement>
         <Select
